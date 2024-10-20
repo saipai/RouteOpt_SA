@@ -1,7 +1,11 @@
-import random
-random.seed(42)
 import numpy as np
 import matplotlib.pyplot as plt
+
+import random
+random.seed(42)
+
+import warnings 
+warnings.filterwarnings('ignore')
 
 # Parameters
 n_locations = 10  # 10 delivery locations
